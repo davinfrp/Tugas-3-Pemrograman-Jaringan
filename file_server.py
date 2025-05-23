@@ -51,10 +51,9 @@ class Server(threading.Thread):
 
 
 def main():
-    svr = Server(ipaddress='0.0.0.0',port=6666)
+    svr = Server(ipaddress='0.0.0.0',port=2727)
     svr.start()
 
 
 if __name__ == "__main__":
     main()
-
